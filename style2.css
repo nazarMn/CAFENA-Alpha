@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrap{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img/img2/coffee-beans-top-view-white-background-space-text\ 1.png);
+    padding-top: 300px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 200px;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+.conteinertop{
+width: 100%;
+height: 25%;
+display: flex;
+justify-content: center;
+}
+.conteinercenter{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+}
+.conteinerbottom{
+    width: 100%;
+    height: 50%;
+    display: flex;
+justify-content: center;
+}
+.conteinertop h2{
+    letter-spacing: 10px;
+    font-weight: 100;
+    font-size: 54px;
+}
+.conteinercenter p{
+    letter-spacing: 4px;
+    font-weight: 100;
+    font-size: 18px;
+    color: #141313;
+    text-indent: 20px;
+}
+.conteinerbottom button{
+    border: none;
+background-color: #232020;
+color: #fff;
+width: 175px;
+height: 48px;
+letter-spacing: 4px;
+border-radius: 2px;
+}
